@@ -1,0 +1,220 @@
+h1 {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.container-modify {
+  margin: 96px 100px 0px 100px;
+
+}
+
+.container-modify__title {
+  font-size: 27px;
+  text-align: center;
+  position: relative;
+}
+
+.container-modify__title-back {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-decoration: none;
+}
+
+.container-modify__title p {
+  font-size: 23px;
+}
+
+.title__icon {
+  font-size: 23px;
+  margin-top: 2px;
+}
+
+.container-modify__title-back:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.product-modifier .form {
+  display: flex;
+  gap: 40px;
+}
+
+.product-modifier .row-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-modifier .row-one .products-name {
+  width: 535px;
+  padding: 0.8rem 1.2rem;
+}
+
+.product-modifier .row-one .discount {
+  padding: 0.8rem 1.2rem;
+  margin: 0 0.8rem;
+}
+
+.product-modifier .row-two .promotion {
+  width: 750px;
+  padding: 0.8rem 1.2rem;
+  margin: 1.2rem 0;
+}
+
+.product-modifier textarea {
+  width: 750px;
+  height: 200px;
+  padding: 0.8rem 1.2rem;
+}
+
+.product-modifier select {
+  padding: 0.4rem;
+  font-size: 0.8rem;
+}
+
+.product-modifier h2 {
+  margin: 1rem 0;
+}
+
+.unit-title {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+  text-align: center;
+  padding: 10px 0px;
+  background-color: #ddddddb0;
+  border-radius: 9px 8px 0px 0px;
+  font-weight: 600;
+  color: #000;
+  border: 1px solid #d2d2d2;
+}
+
+.unit-title-com {
+  display: block
+}
+
+.product-modifier .sizes {
+  display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #d2d2d2;
+    padding: 10px 0px;
+}
+
+.product-modifier .sizes .quantity {
+  margin: 0.6rem 0;
+}
+
+.product-modifier .sizes button {
+  border-color: #d3d3d3;
+  border-radius: 4px;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+.container-unit__namecolor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-modifier .size input {
+  padding: 0.4rem 0.4rem;
+}
+
+.product-modifier .rl {
+  margin-left: 1.2rem;
+  flex-grow: 1;
+}
+
+.product-modifier .rl .link {
+  text-decoration: none;
+}
+
+.product-modifier .rl .icon {
+  font-size: 40px;
+}
+
+.product-modifier .add-size {
+  background: #1a94ff;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+}
+
+.product-modifier input,
+.product-modifier textarea {
+  border: 1px solid rgba(153, 153, 153, 0.5);
+  border-radius: 5px;
+}
+
+.product-modifier .rl .plus {
+  border: 1px dashed rgba(153, 153, 153, 0.5);
+  border-radius: 4px;
+  padding: 5rem;
+}
+
+.product-modifier .format {
+  margin-top: 1.2rem;
+}
+
+.product-modifier .rl .save {
+  background: #1a94ff;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.8rem 2.5rem;
+  cursor: pointer;
+  border: none;
+}
+
+.product-modifier .rl img {
+  height: 200px;
+  width: 200px;
+  margin: 0.8rem 0;
+}
+
+.rl-container {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.rl .icon-image {
+  font-size: 10rem;
+  border: 1px solid rgba(153, 153, 153, 0.5);
+}
+
+
+.rl-container-item {
+  display: flex;
+  border: 1px solid rgba(153, 153, 153, 0.5);
+  margin-right: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.rl-container-img {
+  position: relative;
+}
+
+.rl-container-close {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  color: #d70000;
+}
+
+.rl-container-close:hover {
+  opacity: 0.5;
+}

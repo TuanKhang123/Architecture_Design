@@ -1,0 +1,13 @@
+.hide {
+  position: absolute;
+  right: 12%;
+  top: 47%;
+  font-size: 1rem;
+}
+
+.show {
+  position: absolute;
+  right: 12%;
+  top: 47%;
+  font-size: 1rem;
+}

@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-manager {
+  background-color: #1a94ff;
+  height: 64px;
+  padding: 12px 100px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 20;
+  right: 0;
+  left: 0;
+  top: 0;
+  justify-content: space-between;
+}
+
+.header-manager .container {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.header-manager .logo {
+  height: 32px;
+  width: 90px;
+  background-image: url("../../../public/logotsp.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: pointer;
+}
+
+.header-manager .title { 
+  font-size: 21px;
+  color: white;
+}
+
+.header-manager .list-option__item {
+  line-height: 36px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.header-manager .list-option__item:hover .option__subnav {
+  display: block;
+}
+
+.header-manager .list-option__item-phone {
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+}
+
+.header-manager .list-option__item-login {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+:focus-visible {
+  outline: none;
+}
+
+.header-manager .list-option {
+  list-style-type: none;
+  display: flex;
+  height: 36px;
+}
+
+.header-manager .list-option__option {
+  display: flex;
+  align-items: center;
+  padding: 0px 13px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.header-manager .list-option__item:hover {
+  background: hsla(0, 0%, 100%, 0.2);
+  cursor: pointer;
+}
+
+.header-manager .option__dashboard {
+  background-image: url("../../../public/dashboard.png");
+}
+
+.header-manager .option__product {
+  background-image: url("../../../public/box.png");
+}
+
+.header-manager .option__chat {
+  background-image: url("../../../public/chat.png");
+}
+
+.header-manager .list-option__option .option__icon {
+  height: 25px;
+  width: 25px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  display: inline-block;
+}
+
+.header-manager .option__user {
+  background-image: url("../../../public/user.png");
+}
+
+.header-manager .list-option__option p {
+  color: white;
+  margin-left: 5px;
+  font-size: 17px;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.header-manager .option__subnav {
+  list-style-type: none;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  display: none;
+  position: absolute;
+}
+
+.header-manager .option__subnav-phone { 
+  width: 120px;
+}
+
+.header-manager .option__subnav-pro {
+  width: 130px;
+}
+
+.header-manager .option__subnav a {
+  padding: 0px 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.header-manager .option__subnav>li {
+  list-style-type: none;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.header-manager .list-option__item-phone .option__subnav a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  padding-left: 10px;
+  display: inline-block;
+  line-height: 20px;
+  padding: 10px 0px 10px 20px;
+  width: 100%;
+}
+
+.header-manager .list-option__item-login .option__subnav a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  padding-left: 7px;
+  line-height: 20px;
+  width: 100%;
+}
+
+.header-manager .option__subnav-profile {
+  height: 20px;
+  width: 20px;
+}
+
+.header-manager .list-option__item-login .option__subnav>li {
+  display: flex;
+  padding-left: 20px;
+  padding: 10px 0px 10px 20px;
+  align-items: center;
+}
+
+.header-manager .option__subnav>li:not(:first-child) {
+  border-top: 1px solid rgb(222, 222, 222);
+}
+
+.header-manager .option__subnav>li:hover {
+  background-color: rgba(26, 148, 255, 0.4);
+}
+
+.header-manager .subnav-icon-profile,
+.header-manager .subnav-icon-logout {
+  height: 23px;
+  width: 23px;
+  display: inline-block;
+}
+
+.header-manager :where(.css-dev-only-do-not-override-15rg2km).ant-btn-default:not(:disabled):hover {
+  color: white;
+}

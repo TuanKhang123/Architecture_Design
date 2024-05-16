@@ -1,0 +1,127 @@
+.list-favourite {
+  margin: 50px 100px 30px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  overflow: hidden;
+
+}
+
+.title__list-favourite {
+  margin-top: 94px;
+  text-transform: uppercase;
+  color: #1A94FF;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.list-favourite .link {
+  text-decoration: none;
+}
+
+.list-favourite .item {
+  display: grid;
+  position: relative;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  height: 400px;
+  width: 240px;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+.list-favourite .item .discount {
+  position: absolute;
+  top: 0;
+  background-color: #d70018;
+  border-radius: 0.4rem;
+  padding: 0.4rem 0.6rem;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.list-favourite .item .url {
+  text-align: center;
+}
+
+.list-favourite .item .url img {
+  width: 160px;
+  margin-top: 1rem;
+}
+
+.list-favourite .item h3 {
+  font-size: 14px;
+  font-weight: 600;
+  height: 50px;
+}
+
+.list-favourite .item .format {
+  display: flex;
+  line-height: 1.4;
+}
+
+.list-favourite .item .format p:first-child {
+  color: #d70018;
+  line-height: 1.1;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.list-favourite .item .format p:last-child {
+  color: #707070;
+  font-weight: 600;
+  text-decoration: line-through;
+  font-size: 14px;
+  margin: 0 0 10px 10px;
+}
+
+.list-favourite .item .promotion {
+  background-color: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.list-favourite .item button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.list-favourite .item .icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-favourite .item .star {
+  color: #f59e0b;
+  font-size: 1.4rem;
+  margin-top: 0.8rem;
+}
+
+.list-favourite .item .circle {
+  color: red;
+  font-size: 1.4rem;
+  margin-top: 0.8rem;
+}
+
+.favourite__list-empty-text {
+  font-size: 50px;
+  color: #b4b4b4;
+  text-transform: uppercase;
+}
+
+.favourite__list-empty {
+  text-align: center;
+}
+
+.favourite__list-empty-image {
+  height: 400px;
+  width: 400px;
+}

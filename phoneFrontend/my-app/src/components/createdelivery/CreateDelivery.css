@@ -1,0 +1,94 @@
+:where(.css-dev-only-do-not-override-15rg2km).ant-form-horizontal .ant-form-item-control {
+    flex: none;
+}
+
+.createdelivery {
+    height: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+}
+
+.createdelivery__name {
+    text-transform:uppercase;
+    color: #1A94FF;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.createdelivery .userprofile__form-update {
+    margin-top: 20px;
+}
+
+.createdelivery_form { 
+    display: flex;
+    flex-direction: column;
+}
+
+.createdelivery_address .ant-row { 
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 16px;
+}
+
+.createdelivery_address .ant-row label { 
+    font-size: 16px;
+}
+
+.createdelivery_address .createdelivery_province,
+.createdelivery_address .createdelivery_district,
+.createdelivery_address .createdelivery_ward {
+    width: 100%;
+}
+
+.createdelivery_address .ant-form-item-control {
+    width: 100%;
+}
+
+.createdelivery_address .ant-form-item-control-input-content { 
+    display: flex;
+    gap: 10px;
+}
+
+.createdelivery_address .ant-form-item {
+    width: 33%;
+}
+
+.createdelivery_address .ant-select .ant-select-selector {
+    background-color: #f3f4f6;
+    height: 40px;
+}
+
+.createdelivery_address .ant-select .ant-select-selector .ant-select-selection-placeholder,
+.createdelivery_address .ant-select .ant-select-selector .ant-select-selection-item
+{
+    margin-top: 3px;
+}
+
+
+.createdelivery_note .ant-row {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.createdelivery_note .ant-form-item-label { 
+    text-align: start;
+}
+
+.createdelivery_note .ant-form-item-label .ant-form-item-required { 
+    font-size: 16px;
+}
+
+.createdelivery-btn .ant-btn {
+    width: 100%;
+    font-weight: 600;
+    height: 50px;
+    font-size: 17px;
+}
+
+
+

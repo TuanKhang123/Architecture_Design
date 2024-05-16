@@ -1,0 +1,212 @@
+.order-info {
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    max-width: 640px;
+    height: auto;
+    margin: 0px 10px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.order-info__customer .customer__text {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.order-info__customer .customer__personnal {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-info__customer .customer__personnal .name_user {
+    display: flex;
+    gap: 10px;
+}
+
+.order-info__customer .customer__personnal .name_user .firstname__input,
+.order-info__customer .customer__personnal .name_user .lastname__input {
+    width: 50%;
+}
+
+.personnal__inp {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.delivery-method__text {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.order-info__delivery-method {
+    margin-top: 15px;
+}
+
+.delivery-method__choose {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.pick-up__input {
+    height: 17px;
+    width: 17px;
+    margin-right: 3px;
+    position: relative;
+}
+
+.delivery__input {
+    height: 17px;
+    width: 17px;
+    position: relative;
+    margin-right: 3px;
+}
+
+.delivery-method__choose .choose__pick-up {
+    margin-right: 15px;
+    display: flex;
+}
+
+.delivery-method__choose .choose__delivery {
+    margin-right: 15px;
+    display: flex;
+}
+
+.delivery-method__address {
+    background-color: #f3f4f6;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    padding: 10px 15px;
+}
+
+.address__row {
+    display: flex;
+}
+
+.row__common {
+    width: 50%;
+    border: 1px solid #c3c3c3;
+    background-color: white;
+    padding-left: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.common__arrow {
+    width: 15%;
+    height: 20px;
+}
+
+#row__province,
+#row__wards {
+    margin-right: 8px;
+}
+
+#row__district {
+    margin-left: 8px;
+}
+
+.common__input {
+    width: 85%;
+    border: 0;
+    height: 38px;
+    font-size: 17px;
+}
+
+.detail__input {
+    margin-left: 8px;
+    width: 50%;
+    border: 1px solid #c3c3c3;
+    background-color: white;
+    padding: 0px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #808080;
+}
+
+.mg-bt-5 {
+    margin-bottom: 7px;
+    gap: 8px;
+}
+
+.order-info input[type='radio']:checked:before,
+.delivery-method__choose input[type='radio']:checked:before {
+    width: 14px;
+    height: 14px;
+    border-radius: 15px;
+    position: relative;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    background-color: transparent;
+    border: 1px solid #1A94FF;
+}
+
+
+.order-info input[type='radio']:checked:after,
+.delivery-method__choose input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: 2px;
+    left: 2px;
+    position: absolute;
+    background-color: #1A94FF;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid white;
+}
+
+select.row__common {
+    background-image:
+        linear-gradient(45deg, transparent 50%, gray 50%),
+        linear-gradient(135deg, gray 50%, transparent 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+select.row__common:focus {
+    background-image:
+        linear-gradient(45deg, #1A94FF 50%, transparent 50%),
+        linear-gradient(135deg, transparent 50%, #1A94FF 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position:
+        calc(100% - 15px) 1em,
+        calc(100% - 20px) 1em,
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: #1A94FF;
+    outline: 0;
+}
+
+.address__row select {
+    /* styling */
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    color: #808080;
+    /* reset */
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}

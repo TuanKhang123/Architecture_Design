@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.template-cart {    
+    max-width: 660px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.title__icon {
+    font-size: 25px;
+    margin-top: 2px;
+}
+
+.template-cart__title {
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    color: #1A94FF;
+}
+
+.title__back {
+    color: #1A94FF;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-decoration: none;
+}
+
+.title__back:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.template-cart__title h1 {
+    font-size: 30px;
+    display: inline-block;
+}
+

@@ -1,0 +1,15 @@
+.cart-thanks {
+    text-align: center;
+    margin-top: 94px;
+}
+
+.cart-thanks h1 {
+    font-size: 4rem;
+    margin-top: 10px;
+    color: #2c2c2c
+}
+
+.cart-thanks .img-thank {
+    height: 300px;
+    width: 300px;
+} 

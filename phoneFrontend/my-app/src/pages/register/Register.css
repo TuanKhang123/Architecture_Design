@@ -1,0 +1,111 @@
+.grid-containerregis {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  box-shadow: -1px 1px 8px 0 rgba(0, 0, 0, 0.3);
+  padding: 1.0rem 2.4rem;
+  border-radius: 0.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.grid-containerregis h1 {
+  text-align: center;
+  color: #606060;
+}
+
+.grid-containerregis .wrapper-upload .ant-upload-list-picture-circle {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-containerregis .ant-upload-list-item { 
+  border-color: #1a94ff !important;
+}
+
+.grid-containerregis .uploads_button,
+.grid-containerregis .uploads_button-icon { 
+  color: #606060;
+}
+
+.grid-containerregis .row-two,
+.grid-containerregis .row-one {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 1rem;
+  width: 350px;
+}
+
+.grid-containerregis input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  border: 0.05rem solid #ccc;
+  color: #999;
+}
+
+.grid-containerregis .row-three {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.grid-containerregis .row-three svg {
+  position: absolute;
+  right: 5%;
+  top: 30%;
+}
+
+.grid-containerregis .row-six,
+.grid-containerregis .row-five,
+.grid-containerregis .row-four {
+  margin-bottom: 1rem;
+}
+
+.grid-containerregis span {
+  color: #ec7532;
+  font-weight: bold;
+}
+
+.grid-containerregis .btn-confirm {
+  border-bottom: 0.05rem solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.grid-containerregis .btn-confirm button {
+  background-color: #1a94ff;
+  border: none;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.grid-containerregis .icon {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.grid-containerregis .icon .format {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.4rem;
+  border: 0.05rem solid #ccc;
+}
+
+.grid-containerregis .icon p {
+  margin-left: 0.4rem;
+}
+
+.grid-containerregis .icon-face {
+  color: #0000ff;
+  font-size: 1.5rem;
+}
+
+.grid-containerregis .icon-google {
+  color: #a52a2a;
+  font-size: 1.5rem;
+}

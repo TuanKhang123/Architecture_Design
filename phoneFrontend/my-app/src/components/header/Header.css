@@ -1,0 +1,334 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #1a94ff;
+  height: 64px;
+  padding: 12px 100px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 101;
+  right: 0;
+  left: 0;
+  top: 0;
+  justify-content: space-between;
+}
+
+header .container-search {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+header .logo {
+  height: 90%;
+  width: 15%;
+  background-image: url("../../../public/logotsp.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: pointer;
+}
+
+header .search {
+  display: flex;
+  height: 90%;
+  background-color: #f2f1f3;
+  width: 70%;
+  border-radius: 7px;
+  margin-right: 3%;
+}
+
+header .search .search__icon-search {
+  color: #707070;
+  height: 100%;
+  width: 10%;
+  padding: 10px 0px;
+}
+
+
+header .search .search__input-search {
+  background-color: #f2f1f3;
+  width: 85%;
+  border: 0;
+}
+
+header .list-option__item {
+  line-height: 36px;
+  border-radius: 10px;
+  position: relative;
+}
+
+header .list-option__item:hover .option__subnav {
+  display: block;
+}
+
+header .list-option__item-phone {
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+}
+
+header .list-option .dropdown-phone {
+  display: flex;
+  gap: 3px;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  font-size: 17px;
+  color: white;
+  border: none;
+  align-items: center;
+  box-shadow: none;
+}
+
+header .list-option .dropdown-phone:hover {
+  background: hsla(0, 0%, 100%, 0.2);
+  cursor: pointer;
+  border-radius: 10px;
+  color: white;
+}
+
+header .list-option .dropdown-phone svg {
+  font-size: 17px;
+}
+
+header .list-option .dropdown-user {
+  display: flex;
+  gap: 3px;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  font-size: 17px;
+  color: white;
+  border: none;
+  align-items: center;
+  box-shadow: none;
+}
+
+.header .list-option .dropdown-user:hover {
+  background: hsla(0, 0%, 100%, 0.2);
+  cursor: pointer;
+  border-radius: 10px;
+  color: white;
+}
+
+header .list-option .dropdown-user svg {
+  font-size: 17px;
+}
+
+header .dropdown-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 90px;
+}
+
+header .list-option__item-login {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+header .list-option__item-login .avatar_user {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+:focus-visible {
+  outline: none;
+}
+
+header .list-option {
+  list-style-type: none;
+  display: flex;
+  height: 36px;
+}
+
+header .list-option__option {
+  display: flex;
+  align-items: center;
+  padding: 0px 13px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+header .list-option__login-name {
+  max-width: 115px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+header .list-option__item:hover {
+  background: hsla(0, 0%, 100%, 0.2);
+  cursor: pointer;
+}
+
+header .list-option__option .option__icon-home,
+header .list-option__option .option__icon-phone,
+header .list-option__option .option__icon-pen,
+header .list-option__option .option__icon-cart,
+header .option__icon-user,
+header .list-option__option .option__icon-seller {
+  height: 25px;
+  width: 25px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  display: inline-block;
+}
+
+header .list-option__option .option__icon-arrow-user {
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  display: inline-block;
+}
+
+header .option_contain-circle {
+  position: relative;
+}
+
+header .option__home {
+  background-image: url("../../../public/home.png");
+}
+
+header .option__phone {
+  background-image: url("../../../public/arrow.png");
+}
+
+header .option__pen {
+  background-image: url("../../../public/pen.png");
+}
+
+header .option__cart {
+  background-image: url("../../../public/cart.png");
+}
+
+header .option__user {
+  background-image: url("../../../public/user.png");
+}
+
+header .option__seller {
+  background-image: url("../../../public/seller.png");
+}
+
+header .circle-yellow {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: #fdd835;
+  right: -4px;
+  top: -3px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 15px;
+  font-weight: 600;
+  border-radius: 7px;
+}
+
+header .list-option__option p {
+  color: white;
+  margin-left: 5px;
+  font-size: 17px;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+
+header .option__subnav {
+  list-style-type: none;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  display: none;
+  position: absolute;
+}
+
+.option__subnav-phone {
+  width: 120px;
+}
+
+.option__subnav-pro {
+  width: 130px;
+}
+
+header .option__subnav a {
+  padding: 0px 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+header .option__subnav>li {
+  list-style-type: none;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+header .list-option__item-phone .option__subnav a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  padding-left: 10px;
+  display: inline-block;
+  line-height: 20px;
+  padding: 10px 0px 10px 20px;
+  width: 100%;
+}
+
+header .list-option__item-login .option__subnav a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  padding-left: 7px;
+  line-height: 20px;
+  width: 100%;
+}
+
+.wrapper-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wrapper-user .option__subnav-profile {
+  width: 20px;
+  height: 20px;
+}
+
+.wrapper-user a {
+  color: black;
+  font-size: 14px;
+}
+
+header .list-option__item-login .option__subnav>li {
+  display: flex;
+  padding-left: 20px;
+  padding: 10px 0px 10px 20px;
+  align-items: center;
+}
+
+header .option__subnav>li:not(:first-child) {
+  border-top: 1px solid rgb(222, 222, 222);
+}
+
+header .option__subnav>li:hover {
+  background-color: rgba(26, 148, 255, 0.4);
+}
+
+.subnav-icon-profile,
+.subnav-icon-logout {
+  height: 23px;
+  width: 23px;
+  display: inline-block;
+}

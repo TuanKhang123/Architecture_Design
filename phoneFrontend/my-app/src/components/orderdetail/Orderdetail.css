@@ -1,0 +1,224 @@
+.orderdetail {
+    height: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 150px;
+}
+
+.orderdetail__name {
+    text-transform: uppercase;
+    color: #1A94FF;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.orderdetail__back {
+    color: #1A94FF;
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    font-weight: 600;
+    gap: 5px;
+    width: 12%;
+}
+
+.orderdetail__back:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.orderdetail__back-icon {
+    font-size: 30px;
+}
+
+.orderdetail__item {
+    display: flex;
+    font-size: 15px;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 15px 15px 15px 10px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.orderdetail__item-pro {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.orderdetail__item-pro-img {
+    height: 120px;
+}
+
+.orderdetail__item-pro-detail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    gap: 3px;
+}
+
+.orderdetail__item-pro-detail-namepro {
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+.container-size-color {
+    display: flex;
+    gap: 10px;
+}
+
+.orderdetail__item-pro-detail-size,
+.orderdetail__item-pro-detail-color {
+    margin-bottom: 7px;
+    color: #818181;
+}
+
+.orderdetail__item-pro-detail-quantity {
+    margin-bottom: 7px;
+    color: #818181;
+}
+
+.orderdetail .container-price {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.orderdetail__item-pro-detail-price {
+    color: red;
+    font-weight: 600;
+    font-size: 16px
+}
+
+.orderdetail__item-pro-detail-pricesize {
+    color: #707070;
+    font-weight: 600;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.orderdetail-container_status {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.orderdetail-container_status-Paid {
+    color: #0bd019;
+
+}
+
+.orderdetail-container_status-UnPaid {
+    color: #ec7532;
+}
+
+.time-detail__title {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.time-detail__point {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.time-detail__point-under::after {
+    content: "";
+    border-left: 2.0px dashed #777;
+    height: 20px;
+    left: 1%;
+    top: -98%;
+    position: absolute;
+    width: 15%;
+    margin-left: 4px;
+}
+
+.time-detail__point-group {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.time-detail__point-group-icon {
+    font-size: 24px;
+}
+
+.time-detail__point-group-detail-status {
+    font-size: 17px;
+}
+
+.time-detail__point-time {
+    text-align: center;
+    font-size: 15px;
+}
+
+.orderdetail__cusinfo,
+.orderdetail__orderinfo {
+    margin-top: 30px;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 17px;
+}
+
+.orderdetail__cusinfo-title,
+.orderdetail__orderinfo-title {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.orderdetail__cusinfo-title-icon,
+.orderdetail__orderinfo-title-basket {
+    font-size: 30px;
+}
+
+.orderdetail__cusinfo-title-text,
+.orderdetail__orderinfo-title-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.orderdetail__orderinfo-tran-fee,
+.orderdetail__orderinfo-total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.orderdetail__orderinfo-total .orderdetail__orderinfo-total-price,
+.orderdetail__orderinfo-total-text-total-price {
+    color: red;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.orderdetail__cusinfo-row {
+    display: flex;
+    align-items: end;
+    gap: 22px;
+    margin-top: 7px;
+}
+
+.orderdetail__cusinfo-row-icon {
+    font-size: 22px;
+}
+
+.orderdetail__cusinfo-row-phone {
+    font-size: 22px;
+}

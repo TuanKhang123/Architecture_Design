@@ -1,0 +1,33 @@
+.detailbill {
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  max-width: 640px;
+  height: auto;
+  margin: 0px 10px;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.detailbill__order-info {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.detailbill__info-common {
+  font-size: 18px;
+  margin: 20px 0px;
+}
+
+.detailbill__info-common .info-common-before {
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.detailbill__info-common {
+  font-weight: 600;
+}
+
+.detailbill__paypalbtn {
+  margin-top: 20px
+}

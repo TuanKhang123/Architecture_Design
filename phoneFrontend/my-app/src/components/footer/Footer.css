@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.f-wrapper {
+    margin-top: 80px;
+}
+
+.f-wrapper .f-wrapper__line {
+    background: linear-gradient(-90deg, #36a1ff, #7dc3ff);
+    height: 7px;
+    border-radius: 20px 20px 0px 0px
+}
+
+.f-wrapper .f-wrapper__content {
+    padding: 0px 100px;
+    display: flex;
+}
+
+.f-wrapper .list-1,
+.f-wrapper .list-2,
+.f-wrapper .list-3 {
+    height: 100%;
+    width: calc(100%/3);
+    padding-top: 30px;
+}
+
+.f-wrapper .list-2__pro {
+    display: flex;
+    flex-direction: column;
+}
+
+.f-wrapper .related-tag {
+    text-decoration: none;
+    color: black;
+    margin-top: 7px;
+}
+
+.f-wrapper .list-1__tspblack {
+    height: 36px;
+    background-image: url('../../../public/tspblack.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+} 
+
+.f-wrapper .list-1__component {
+    margin-top: 15px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.f-wrapper .component__logo {
+    font-size: 26px;
+    margin-right: 5px;
+}
+
+.f-wrapper .list-1__component p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.f-wrapper .list-1__component:hover {
+    opacity: 0.6;
+}
+
+.f-wrapper .list-2__title,
+.f-wrapper .list-3__title {
+    height: 36px;
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+
+.f-wrapper .list-2__title__item {
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.f-wrapper .list-2__title__item:hover {
+    opacity: 0.6;
+}
+
+.f-wrapper .list-3__title__item {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.f-wrapper .list-3__title__email {
+    display: inline-block;
+    color: black;
+    margin-left: 5px;
+}
+
+
+

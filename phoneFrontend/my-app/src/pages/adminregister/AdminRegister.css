@@ -1,0 +1,106 @@
+.admin-register {
+  margin-top: 40px;
+  box-shadow: -1px 1px 8px 0 rgba(0, 0, 0, 0.3);
+  padding: 2.4rem;
+  border-radius: 0.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.admin-register h1 {
+  text-align: center;
+  color: #606060;
+  padding-bottom: 2rem;
+}
+
+.admin-register .row-one {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 1rem;
+  width: 350px;
+}
+
+.admin-register .wrapper-upload .ant-upload-list-picture-circle {
+  display: flex;
+  justify-content: center;
+}
+
+.admin-register .uploads_button,
+.admin-register .uploads_button-icon { 
+  color: #606060;
+}
+
+.admin-register input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  border: 0.05rem solid #ccc;
+  color: #999;
+}
+
+.admin-register .row-two {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.admin-register .row-two svg {
+  position: absolute;
+  right: 5%;
+  top: 30%;
+}
+
+.admin-register .row-five,
+.admin-register .row-four,
+.admin-register .row-three {
+  margin-bottom: 1rem;
+}
+
+.admin-register span {
+  color: #ec7532;
+  font-weight: bold;
+}
+
+.admin-register .btn-confirm {
+  border-bottom: 0.05rem solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.admin-register .btn-confirm button {
+  background-color: #1a94ff;
+  border: none;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.admin-register .icon {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.admin-register .icon .format {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.4rem;
+  border: 0.05rem solid #ccc;
+}
+
+.admin-register .icon p {
+  margin-left: 0.4rem;
+}
+
+.admin-register .icon-face {
+  color: #0000ff;
+  font-size: 1.5rem;
+}
+
+.admin-register .icon-google {
+  color: #a52a2a;
+  font-size: 1.5rem;
+}

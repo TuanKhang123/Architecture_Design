@@ -1,0 +1,237 @@
+.purchase {
+    height: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 60px;
+}
+
+.purchase__name {
+    text-transform: uppercase;
+    color: #1A94FF;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.purchase__status {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.purchase__status-common {
+    background-color: white;
+    font-size: 17px;
+    padding: 1px 12px;
+    border: none;
+}
+
+.purchase__status-common:hover {
+    cursor: pointer;
+}
+
+.purchase__status-common-active {
+    color: #1A94FF;
+    font-weight: 600;
+}
+
+.purchase__title { 
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr 2fr 2fr 2fr;
+    border: 1px solid #d0d0d0;
+    padding: 10px 10px 10px 0px;
+    border-radius: 10px;
+    color: #333;
+    text-align: center;
+    font-size: 15px;
+    color: #818181;
+}
+
+.purchase__list {
+    height: 275px;
+}
+
+.purchase__list-item {
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr 2fr 2fr 2fr;
+    font-size: 15px;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 20px 10px 20px 10px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.purchase__list-item-time,
+.purchase__list-item-price,
+.purchase__list-item-btn {
+    text-align: center;
+    justify-content: center;
+}
+
+.purchase__list-data-price { 
+    color: rgb(249, 34, 34);
+    font-weight: 600;
+}
+
+.purchase__list-item-status {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100%;
+}
+
+.purchase__list-item-status-UnPaid {
+    color: #ec7532;
+}
+
+.purchase__list-item-status-Paid {
+    color: #0bd019;
+}
+
+.purchase__list-item-container {
+    display: grid;
+    grid-template-columns: 4fr 1.5fr 1.5fr;
+    align-items: center;
+}
+
+.purchase__list-item-pro-img {
+    height: 100px; 
+}
+
+.purchase__list-item-pro-detail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.purchase__list-item-pro-detail-namepro {
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+.purchase__list-item-pro-detail-color {
+    margin-bottom: 7px;
+    color: #818181;
+}
+
+.purchase__list-item-pro-detail-quantity {
+    color: #818181;
+}
+
+
+.purchase__list-item-price {
+    color: red;
+    font-weight: 600;
+}
+
+.purchase__list-item-btn {
+    width: 100%;
+}
+
+
+.purchase__list-item-btn-detail {
+    padding: 8px 25px;
+    border-radius: 15px;
+    border: 1px solid;
+    background-color: #1A94FF;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.purchase__list-item-btn-detail:hover {
+    opacity: 0.8;
+    cursor: pointer;
+} 
+
+.purchase .pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 17px;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+.purchase .page-num {
+    border: 1px solid #818181;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.purchase .page-num:hover {
+    background-color: #4babffcf;
+    cursor: pointer;
+}
+
+.purchase .active {
+    background-color: #4babff9e;
+}
+
+.purchase__next,
+.purchase__prev {
+    font-size: 20px;
+}
+
+.purchase__next:hover, 
+.purchase__prev:hover {
+    background-color: #4babffcf;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.arrow-prev,
+.arrow-next {
+    display: inline-block;
+    margin-bottom: 4px;
+    padding: 0px 6px;
+}
+
+.purchase__list-item-icon {
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    font-size: 25px;
+}
+
+.purchase__list-item-icon:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.purchase__list-item-icon path {
+    stroke: #757575;
+}
+
+.empty-text,
+.purchase__list-empty-text {
+    font-size: 50px;
+    color: #b4b4b4;
+    text-transform: uppercase;
+}
+
+.purchase__list-empty {
+    text-align: center;
+}
+
+.purchase__list-empty-image {
+    height: 300px;
+    width: 300px;
+}
+
+.empty {
+    text-align: center;
+    flex: 1;
+}
+
+.empty-image {
+    height: 400px;
+    width: 400px;
+}

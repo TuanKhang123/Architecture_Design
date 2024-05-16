@@ -1,0 +1,66 @@
+.status-order {
+    border-radius: 10px;
+    height: 85px;
+    margin: 20px 10px 0px;
+    max-width: 640px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 16px;
+    background-color: #cde6fd99;
+}
+
+.status-order__choose {
+    width: 25%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose__icon {
+    color: #777;
+    font-size: 24px;
+    margin: 0px 55px;
+    border: 1px solid #777;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+.status-order__icon {
+    height: 35px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 0px 6px;
+}
+
+.choose__text {
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.status-order .status-order__choose:not(:first-child)::after {
+    content: "";
+    border-top: 1.5px dashed #777;
+    height: 1px;
+    left: -15%;
+    top: 30%;
+    position: absolute;
+    width: 30%;
+}
+
+.active .choose__icon {
+    color: #1A94FF;
+    border-color: #1A94FF;
+}
+
+.active .choose__text {
+    color: #1A94FF;
+}
+
+.status-order .active:not(:first-child)::after {
+    border-color: #1A94FF;
+}

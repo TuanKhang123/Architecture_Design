@@ -1,0 +1,97 @@
+.grid-containerlogin {
+  box-shadow: -1px 1px 8px 0 rgba(0, 0, 0, 0.3);
+  padding: 2.4rem ;
+  border-radius: 0.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grid-containerlogin h1 {
+  text-align: center;
+  color: #606060;
+  padding-bottom: 2rem;
+}
+
+.grid-containerlogin .row-one {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.grid-containerlogin .row-one svg {
+  position: absolute;
+  right: 4%;
+  top: 30%;
+}
+
+.grid-containerlogin input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  border: 0.05rem solid #ccc;
+  color: #999;
+}
+
+.grid-containerlogin span {
+  color: #ec7532;
+  font-weight: bold;
+}
+
+.grid-containerlogin .link {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.grid-containerlogin a {
+  text-decoration: none;
+  color: #696969;
+  font-weight: bold;
+}
+
+.grid-containerlogin a:hover {
+  text-decoration: underline;
+}
+
+.grid-containerlogin .btn-login {
+  border-bottom: 0.05rem solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.grid-containerlogin .btn-login button {
+  background-color: #1a94ff;
+  border: none;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.grid-containerlogin .icon {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  gap: 50px;
+}
+
+.grid-containerlogin .icon .format {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.4rem;
+  border: 0.05rem solid #ccc;
+  gap: 20px;
+}
+
+.grid-containerlogin .icon-face {
+  color: #0000ff;
+  font-size: 1.5rem;
+}
+
+.grid-containerlogin .icon-google {
+  color: #a52a2a;
+  font-size: 1.5rem;
+}
