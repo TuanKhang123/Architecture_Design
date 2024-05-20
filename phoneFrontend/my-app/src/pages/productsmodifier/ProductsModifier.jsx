@@ -101,6 +101,7 @@ const ProductsModifier = () => {
         size.forEach(sizeitem => {
             if (sizeitem?.color?.length === 0) flag = 1;
         });
+        
         if (flag === 1) {
             toast.error(
                 '1 size must have at least 1 color',
