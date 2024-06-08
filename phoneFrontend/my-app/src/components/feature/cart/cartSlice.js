@@ -224,7 +224,7 @@ export const cartSlice = createSlice({
       .addCase(increaseQuantity.fulfilled, (state, action) => {
         state.success = true;
       })
-      .addCase(increaseQuantity, (state, action) => {
+      .addCase(increaseQuantity.rejected, (state, action) => {
         state.error = true;
       })
       //decrease quantity

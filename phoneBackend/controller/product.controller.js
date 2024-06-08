@@ -417,8 +417,8 @@ const getProduct = (req, res) => {
         const arr = result.map((value) => {
           return {
             ...value,
-            size: JSON.parse(value.size),
-            image: JSON.parse(value.image),
+            size: typeof value.size === 'string' ? JSON.parse(value.size) : value.size,
+            image: typeof value.image === 'string' ? JSON.parse(value.image) : value.image,
           };
         });
         res.status(200).json(arr);
@@ -442,11 +442,12 @@ const getProductDetail = (req, res) => {
     db.connection.query(selectProductsById, [idproducts], (error, result) => {
       if (error) {
         throw error;
-      } else {
+      } else {  
+        console.log(result[0])
         const response = {
           ...result[0],
-          size: JSON.parse(result[0].size),
-          image: JSON.parse(result[0].image),
+          size: result[0].size,
+          image: result[0].image,
           isHeart
         };
 
@@ -502,8 +503,8 @@ const getCategorybyID = (req, res) => {
         const arr = result.map((value) => {
           return {
             ...value,
-            size: JSON.parse(value.size),
-            image: JSON.parse(value.image),
+            size: typeof value.size === 'string' ? JSON.parse(value.size) : value.size,
+            image: typeof value.image === 'string' ? JSON.parse(value.image) : value.image,
           };
         });
         res.status(200).json(arr);

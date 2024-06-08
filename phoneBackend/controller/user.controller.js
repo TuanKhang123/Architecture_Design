@@ -34,7 +34,7 @@ const register = (req, res) => {
     } else {
       db.connection.query(querySelect, [email], (err, result) => {
         // Kiểm tra email tồn tại
-        if (result.length > 0) {
+        if (result && result.length > 0) {
           if (err) {
             throw err;
           } else {
